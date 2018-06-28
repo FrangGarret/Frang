@@ -3,7 +3,7 @@ import Router from 'vue-router'
 //首页组件库
 import Index from '@/components/index/index'
 import Index_warp from '@/components/index/Index_warp'
-import Week from '@/components/index/week'
+import photoList from '@/components/index/photoList'
 import weekDataList from '@/components/index/weekDataList'
 import New from '@/components/index/new'
 //import Record from '@/components/record/record.vue'
@@ -36,9 +36,9 @@ let router = new Router({
 					component: Index
 				},
 				{
-					path: 'Week',
-					name: 'Week',
-					component: Week
+					path: 'photoList',
+					name: 'photoList',
+					component: photoList
 				},
 				{
 					path: 'weekDataList',

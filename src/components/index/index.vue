@@ -1,6 +1,5 @@
 <template>
 	<div id="">
-		<audio autoplay="autoplay" style="display:none; height: 0" id="Jaudio" class="media-audio" preload="auto" src="/static/music/chuzhen.mp3" loop="loop"></audio>
 		<swiper loop auto :list="demo07_list" :aspect-ratio="250/400" :index="demo07_index" @on-index-change="demo07_onIndexChange"></swiper>
 		<div class="">Wonderful case</div>
 		<ul class="">
@@ -46,7 +45,7 @@
 			imgSrc: require('../../assets/img/cbd.jpg'),
 			_text: 'Atlas (军旅时光)',
 			_title: 'The cheers and laughter！',
-			ruoters:''
+			ruoters:'photoList'
 		},
 		{
 			imgSrc: require('../../assets/img/yuantiao.jpg'),
@@ -58,7 +57,7 @@
 			imgSrc: require('../../assets/img/shuijiao.jpg'),
 			_text: 'Resume (个人简历)',
 			_title: 'Where was the comrade in arms?',
-			ruoters:''
+			ruoters:'Personal'
 		}
 	]
 

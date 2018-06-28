@@ -8,6 +8,9 @@ import VueBarcode from '@xkeshi/vue-barcode';
 import Axios from 'axios'
 import VueAxios from 'vue-axios'
 import $ from 'jquery'
+import preview from 'vue-photo-preview'
+import 'vue-photo-preview/dist/skin.css'
+Vue.use(preview)
 Vue.prototype.$axios = Axios;
 Vue.use(VueAxios,Axios)
 Vue.prototype.HOST ='/api'
