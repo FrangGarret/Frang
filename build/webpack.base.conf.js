@@ -80,6 +80,14 @@ const webpackConfig = {
 				options: {
 					name: utils.assetsPath('assets/[name].[ext]')
 				}
+			},
+			{
+				test: /\.jade$/,
+				loader: "jade"
+			},
+			{
+				test: /\.pug$/,
+				loader: 'pug'
 			}
 		]
 	}
