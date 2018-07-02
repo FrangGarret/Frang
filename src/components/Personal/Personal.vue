@@ -101,13 +101,16 @@
 								<h2 class='box__content-text-heading'>2016/8-至今	Web前端开发工程师|能源与保险交付部</h2>
 								<h3 class="title_miaoshu">工作描述</h3>
 								<p class='box__content-text-par'>
-									1、运用html+css+js+grunt+npm进行后台系统的构建与数据交互，处理复杂页面交互逻辑。
+									1、运用html、css、js、webpack、npm进行后台系统的构建与数据交互，处理复杂页面交互逻辑。
 								</p>
 								<p class='box__content-text-par'>
 									2、协助其他项目组对项目进行项目BUG处理以及提出合理可实施建议（混合APP、移动端H5、数据可视化等技术要点）。
 								</p>
 								<p class='box__content-text-par'>
-									3、建立前端自动化流程，节省开发时间，提升前端小组的开发效率。
+									3、负责带领前端团队（前端团队15人）提供技术架构以及技术解决方案。
+								</p>
+								<p class='box__content-text-par'>
+									4、负责对前端团队成员进行技术培训以及水平考核
 								</p>
 								<h2 class='box__content-text-heading'>2016/2-2016/8上海翼路信息科技有限公司保险产品开发/项目策划</h2>
 								<h3 class="title_miaoshu">工作描述</h3>
@@ -115,7 +118,7 @@
 									1、熟练运用H5、css3、js开发车险互助险的webAPP；根据项目需求进行微信JS-SDK接口的调用，利用淘宝rem布局方式，完美自适应多款手机及其他移动终端。
 								</p>
 								<p class='box__content-text-par'>
-									2、通过调用百度地图API、优酷视频实现功能的完善。
+									2、通过调用百度地图API、微信js-sdk、优酷视频实现功能的完善。
 								</p>
 								<p class='box__content-text-par'>
 									3、通过MUI的混合方式开发壹路互助WebApp，充分结合H5绚丽多彩的效果+原生的流畅度，使WebApp的视觉呈现效果达到最佳，同时兼容IOS、android。
@@ -144,6 +147,9 @@
 								<p class='box__content-text-par'>
 									5、负责太平洋保险产线、寿险项目内部系统界面开发以及公司外包订单前端代码部分。
 								</p>
+								<p class='box__content-text-par'>
+									6、对PC、moile端进行持续性的性能优化。
+								</p>
 
 								<h2 class='box__content-text-heading'>2014/4-2015/7安庆市艺术装饰工程公司</h2>
 								<h3 class="title_miaoshu">工作描述</h3>
@@ -165,7 +171,37 @@
 					<div class="box__content-wrapper">
 						<div class="box__content-inner">
 							<div class="box__content-text">
-								<h2 class='box__content-text-heading'>2016/8-至今 太平洋保险寿险、健康险系统</h2>
+								<h2 class='box__content-text-heading'>2017/9-2018/4   甜橙金融互联网经济平台</h2>
+								<h3 class="title_miaoshu">项目描述</h3>
+								<p class='box__content-text-par'>
+									这个系统包括两块，BMS系统和App;
+									<br />
+BMS系统:
+<br />
+由于原来的甜橙保险统一服务平台（简称：甜橙保险）对接保险公司及产品时，新上产品周期比较长，效率较低，影响产品正常投入市场。故对老系统推翻重做，尤其是针对产品发布管理模块，实现产品快速上线配置化，缩短产品上线周期，满足业务需求等目标。新系统（一期）的功能：系统管理、产品管理中心、人员管理、综合查询等模块。为了实现业务目标和技术目标，采用市面上成熟的技术。从系统设计的角度描述系统内各种J2EE组件的层次模块划分，开发框架：基于Dubbo、Zookeeper、SpringBoot的分布式架构；JAVA服务器：Weblogic；数据库：Mysql；页面展现：Vue.js+html5；监控分布式任务调用链：Zipkin；数据缓存：Redis；消息中间件：RabbitMQ；
+<br />
+App:
+<br />
+内嵌在翼支付中的混合App,采用webpack、Vue.js、vuex、vue-router、axios完成项目开发。
+								</p>
+								<p class='box__content-text-par'>
+									担任寿险、健康险项目的前端开发工程师，负责对该项目的前端界面设计及开发、UI、js框架的设计与选用，同后端java开发协商前后端交互API文档
+								</p>
+								<p class='box__content-text-par'>
+									在本项目中本人担任前端架构设计以及具体功能开发（任务工作台、合同质检）,开发过程中负责review前端团队成员项目代码。
+								</p>
+								<h2 class='box__content-text-heading'>2017/09-2018/03至今 香港富卫保险核保系统</h2>
+								<h3 class="title_miaoshu">项目描述</h3>
+								<p class='box__content-text-par'>
+									Hbuilder eclipse(开发工具)
+								</p>
+								<p class='box__content-text-par'>
+									担任寿险、健康险项目的前端开发工程师，负责对该项目的前端界面设计及开发、UI、js框架的设计与选用，同后端java开发协商前后端交互API文档
+								</p>
+								<p class='box__content-text-par'>
+									在本项目中本人担任前端架构设计以及具体功能开发（任务工作台、合同质检）,开发过程中负责review前端团队成员项目代码。
+								</p>
+								<h2 class='box__content-text-heading'>2016/8-2017/04至今 太平洋保险寿险、健康险系统</h2>
 								<h3 class="title_miaoshu">项目描述</h3>
 								<p class='box__content-text-par'>
 									Hbuilder eclipse(开发工具)
@@ -313,16 +349,16 @@
 							<div class="box__content-text">
 								<h2 class='box__content-text-heading'>自我评价</h2>
 								<p class='box__content-text-par'>
-									1、精通Div+css、JavaScript、less、scss、JSON、Ajax等页面技术熟悉W3C网页标准，热爱原生js学习，两年多前端开发经验；熟悉使用常见JS开发框架，如：MUI/jQuery/bootstrap/juery moible;
+									1、精通Div+css、JavaScript、less、scss、JSON、Ajax等页面技术熟悉W3C网页标准，热爱原生js学习，两年多前端开发经验；熟悉使用常见JS开发框架，如：Mui、jQuery、bootstrap、juery moible、ES6、Vue.js、mock.js;
 								</p>
 								<p class='box__content-text-par'>
-									2、使用echarts进行前端数据可视化，具有丰富的使用经验。
+									2、使用echarts进行前端数据可视化展示，具有丰富的使用经验。
 								</p>
 								<p class='box__content-text-par'>
 									3、熟练使用前端构建工具webpack+gulp+npm构建项目前端自动化流程，与后端开发协商前后端交互API文档，做到前后端分离，提升工作效率。
 								</p>
 								<p class='box__content-text-par'>
-									4、有良好的代码习惯，要求结构清晰，命名规范，逻辑性强，代码冗余率低，有一定的用户需求分析能力；
+									4、有良好的代码习惯，要求结构清晰，命名规范，逻辑性强，代码冗余率低，有敏锐的用户需求分析能力；
 								</p>
 								<p class='box__content-text-par'>
 									5、webapp开发经验丰富，善于使用HTML5、css3进行响应式布局，熟练解决多终端多浏览器的兼容性问题，做到网页展示无限接近设计稿；
@@ -331,10 +367,13 @@
 									6、精通前端性能优化，精准打击影响网站加载性能问题。
 								</p>
 								<p class='box__content-text-par'>
-									7、熟练使用微信js-sdk进行微信端开发，现着手学习高性能框架vue。
+									7、熟练使用微信js-sdk及Vue2.0进行微信端开发，微信公众号及微信小程序
 								</p>
 								<p class='box__content-text-par'>
 									8、退伍军人，具有良好的团队协作能力与相处能力，个人学习能力较强，空余时间建立了个人网站m.fangjialiang.com；
+								</p>
+								<p class='box__content-text-par'>
+									9、两年前端团队管理经验，负责对接客户方前端技术架构需求，同时负责协调公司其他多部门人员进行共同开发，目前负责公司独立产品研发。
 								</p>
 								<h2 class='box__content-text-heading'>掌握技术</h2>
 								<ul class='box__content-text-list'>
