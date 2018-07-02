@@ -58,6 +58,8 @@
 		box-sizing: border-box;
 		min-height: 100%;
 		overflow: auto;
+		color:#fff;
+		background: #021d1c;
 	}
 	
 	.slide-left-enter,

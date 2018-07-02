@@ -4,13 +4,17 @@ import Router from 'vue-router'
 import Index from '@/components/index/index'
 import Index_warp from '@/components/index/Index_warp'
 import photoList from '@/components/index/photoList'
-import weekDataList from '@/components/index/weekDataList'
-import New from '@/components/index/new'
-//import Record from '@/components/record/record.vue'
+import travel from '@/components/index/travel'
+
+
 //我的奖励组件库
 import Options from '@/components/options/options.vue';
 import Options_warp from '@/components/options/options_warp.vue'
 import Location from '@/components/options/Location.vue'
+import weichat from '@/components/options/weichat.vue'
+import zhifubao from '@/components/options/zhifubao.vue'
+import weibo from '@/components/options/weibo.vue';
+import echarts from '@/components/options/echarts.vue'
 
 import Personal from '@/components/Personal/Personal.vue'
 import Home from '@/components/home'
@@ -41,14 +45,9 @@ let router = new Router({
 					component: photoList
 				},
 				{
-					path: 'weekDataList',
-					name: 'weekDataList',
-					component: weekDataList
-				},
-				{
-					path: 'New',
-					name: 'New',
-					component: New
+					path: 'travel',
+					name: 'travel',
+					component: travel
 				}
 			]
 		},
@@ -65,7 +64,32 @@ let router = new Router({
 					name: 'Location',
 					component: Location,
 					children: []
+				},
+				{
+					path: 'weichat',
+					name: 'weichat',
+					component: weichat,
+					children: []
+				},
+				{
+					path: 'weibo',
+					name: 'weibo',
+					component: weibo,
+					children: []
+				},
+				{
+					path: 'zhifubao',
+					name: 'zhifubao',
+					component: zhifubao,
+					children: []
+				},
+				{
+					path: 'echarts',
+					name: 'echarts',
+					component: echarts,
+					children: []
 				}
+				
 				
 			]
 		},

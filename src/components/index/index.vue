@@ -1,5 +1,5 @@
 <template>
-	<div id="">
+	<div id="" style="overflow: hidden;">
 		<swiper loop auto :list="demo07_list" :aspect-ratio="250/400" :index="demo07_index" @on-index-change="demo07_onIndexChange"></swiper>
 		<div class="">Wonderful case</div>
 		<ul class="">
@@ -58,6 +58,12 @@
 			_text: 'Resume (个人简历)',
 			_title: 'Where was the comrade in arms?',
 			ruoters:'Personal'
+		},
+		{
+			imgSrc: require('../../assets/img/timg.jpg'),
+			_text: 'Traveling (旅游风光)',
+			_title: 'The world is so big that we must look at it！',
+			ruoters:'travel'
 		}
 	]
 

@@ -4,14 +4,14 @@ const path = require('path')
 const utils = require('./utils')
 const config = require('../config')
 const vueLoaderConfig = require('./vue-loader.conf')
-
 function resolve(dir) {
 	return path.join(__dirname, '..', dir)
 }
 const vuxLoader = require('vux-loader')
 const webpackConfig = {
 	entry: {
-		app: './src/main.js'
+//		app: './src/main.js'
+			app: ["babel-polyfill","./src/main.js"] 
 	},
 	plugins: [
 		new webpack.ProvidePlugin({
@@ -44,7 +44,8 @@ const webpackConfig = {
 			{
 				test: /\.js$/,
 				loader: 'babel-loader',
-				include: [resolve('src'), resolve('test')]
+				include: [resolve('src'), resolve('test'), resolve('node_modules/webpack-dev-server/client')],
+				exclude: /node_modules/
 			},
 			{
 				test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,

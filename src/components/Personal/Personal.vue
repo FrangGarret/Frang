@@ -744,6 +744,7 @@
 		color: #ababab;
 		/*overflow-scrolling: touch;*/
 		-webkit-overflow-scrolling: touch;
+		box-sizing: border-box;
 	}
 	
 	.box__content-text-heading {

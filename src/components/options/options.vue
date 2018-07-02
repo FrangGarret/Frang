@@ -24,7 +24,7 @@
 	 	{
 	 		title:'WChat',
 	 		iconfontClass:'icon-weixin',
-	 		routers:''
+	 		routers:'weichat'
 	 	},
 	 	{
 	 		title:'location',
@@ -34,7 +34,7 @@
 	 	{
 	 		title:'Case',
 	 		iconfontClass:'icon-xuanxiang',
-	 		routers:''
+	 		routers:'echarts'
 	 	},
 	 	{
 	 		title:'Phone',
@@ -49,12 +49,12 @@
 	 	{
 	 		title:'Alipay',
 	 		iconfontClass:'icon-zhifubao',
-	 		routers:''
+	 		routers:'zhifubao'
 	 	},
 	 	{
 	 		title:'WeiBo',
 	 		iconfontClass:'icon-weibo',
-	 		routers:''
+	 		routers:'weibo'
 	 	}
 	 ]
 	
