@@ -464,7 +464,7 @@ App:
 				</div>
 				<div class="box__episodes">Please</div>
 				<div class='box__title'>
-					<h1 class='box__title-heading'>方家亮<br>
+					<h1 class='box__title-heading'>Frang<br>
         				<span>Hello world</span>
 					</h1>
 					<p class='box__title-par'>2016-11-06</p>

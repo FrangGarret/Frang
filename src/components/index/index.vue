@@ -6,9 +6,9 @@
 			<router-link tag="li" v-for="(item,index) in taps" :key='item.index' :to="{name:item.ruoters}" class="Frang_view_cell" >
 				<img class="Frang_pull_left Frang_img_icon" :src="item.imgSrc">
 				<div class="Frang_text">
-					<p class="_text">{{ item._text }}</p>
+					<p class="Frang_title_text">{{ item._text }}</p>
 					<p class="Frang_ellipsis">{{ item._title }}</p>
-					<i class="iconfont icon-icon right_arr"></i>
+					<i class="iconfont icon-icon Frang_right_arr"></i>
 				</div>
 			</router-link>
 		</ul>
@@ -111,56 +111,5 @@
 	}
 </script>
 
-<style scoped="scoped">
-	body {}
-	
-	.Frang_view_cell {
-		display: flex;
-		flex-flow: row;
-		padding: 5px 15px;
-		margin-bottom: 10px;
-		position: relative;
-	}
-	.Frang_view_cell:after{
-		width: 100%;
-		height: 1px;
-		background: #999;
-		position: absolute;
-		left: 15px;
-		bottom: 0;
-		content: '';
-	}
-	.Frang_img_icon {
-		height: 42px;
-		max-width: 42px;
-		line-height: 42px;
-	}
-	
-	.Frang_text {
-		color: #fff;
-		position: relative;
-		flex: 1;
-		margin-left: 15px;
-		overflow: hidden;
-	}
-	
-	.right_arr {
-		position: absolute;
-		right: 5px;
-		top: 50%;
-		transform: translateY(-50%);
-	}
-	
-	._text {
-		color: #FFFFFF;
-		font-size: 16px;
-	}
-	
-	.Frang_ellipsis {
-		width: 100%;
-		overflow: hidden;
-		white-space: nowrap;
-		text-overflow: ellipsis;
-		color: #999;
-	}
+<style>
 </style>

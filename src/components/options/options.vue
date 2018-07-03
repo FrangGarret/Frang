@@ -39,7 +39,7 @@
 	 	{
 	 		title:'Phone',
 	 		iconfontClass:'icon-shouji',
-	 		routers:''
+	 		routers:'phone'
 	 	},
 	 	{
 	 		title:'YaoYiYao',
