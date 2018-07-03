@@ -6,6 +6,8 @@ import Index_warp from '@/components/index/Index_warp'
 import photoList from '@/components/index/photoList'
 import travel from '@/components/index/travel'
 import phone from '@/components/index/phone'
+import somethingsList from '@/components/index/somethingsList'
+import someThings from '@/components/index/someThings'
 
 
 //我的奖励组件库
@@ -49,6 +51,16 @@ let router = new Router({
 					path: 'travel',
 					name: 'travel',
 					component: travel
+				},
+				{
+					path: 'somethingsList',
+					name: 'somethingsList',
+					component: somethingsList
+				},
+				{
+					path: 'someThings',
+					name: 'someThings',
+					component: someThings
 				}
 				
 			]

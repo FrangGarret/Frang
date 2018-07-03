@@ -51,7 +51,7 @@
 			imgSrc: require('../../assets/img/yuantiao.jpg'),
 			_text: 'Life ah (生活感言)',
 			_title: 'Quietly look at this world, and finally crazy！',
-			ruoters:''
+			ruoters:'somethingsList'
 		},
 		{
 			imgSrc: require('../../assets/img/shuijiao.jpg'),
