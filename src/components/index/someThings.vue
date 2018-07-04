@@ -27,12 +27,12 @@
 		},
 		methods:{
 			getDatas(){
-				axios.get('./static/mock/ArticleList.json') 
+				axios.get('https://www.easy-mock.com/mock/5b3c6de73e96141ffe9caf37/list/artcileList') 
 					.then(res => {
-						this.htmls =	eval(res.data)[this.nums].value
+						this.htmls =	eval(res.data.data)[this.nums].value
 						
-						this.title = eval(res.data)[this.nums].title
-						this.time = eval(res.data)[this.nums].time
+						this.title = eval(res.data.data)[this.nums].title
+						this.time = eval(res.data.data)[this.nums].time
 						
 						//alert(typeof this.htmls)
 						

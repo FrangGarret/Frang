@@ -1,6 +1,6 @@
 <template>
 	<div class="background_f1f1f1"">
-		<!--<audio autoplay="autoplay" style="display:none; height: 0" id="Jaudio" class="media-audio" preload="auto" src="/static/music/chuzhen.mp3" loop="loop"></audio>-->
+		<audio autoplay="autoplay" style="display:none; height: 0" id="Jaudio" class="media-audio" preload="auto" src="/static/music/chuzhen.mp3" loop="loop"></audio>
 		<transition :name="transitionName" mode="out-in">
 			<router-view class="Router"></router-view>
 		</transition>
