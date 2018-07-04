@@ -7,6 +7,7 @@ import './assets/css/home.css'
 import VueBarcode from '@xkeshi/vue-barcode'; 
 import Axios from 'axios'
 import VueAxios from 'vue-axios'
+import store from './store'
 import $ from 'jquery'
 import 'babel-polyfill'
 import preview from 'vue-photo-preview'
@@ -21,6 +22,7 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   router,
+  store,
   components: { App },
   template: '<App/>'
 })
